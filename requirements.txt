@@ -1,2 +1,5 @@
-sklearn
+numpy==1.23.3
+pandas==1.5.0
 streamlit==1.13.0
+matplotlib==3.6.0
+matplotlib-inline==0.1.6
