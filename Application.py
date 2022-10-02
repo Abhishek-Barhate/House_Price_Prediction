@@ -1,9 +1,7 @@
 
-import pandas as pd
 import numpy as np
 import streamlit as st
 import pickle
-from sklearn import *
 
 pickle_in = open("banglore_home_prices_model.pickle","rb")
 model = pickle.load(pickle_in)
